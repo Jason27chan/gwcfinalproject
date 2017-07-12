@@ -44,7 +44,18 @@ define narration = nvl_narrator
 ##IMAGES
 #CHARACTERS
 image MB = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mr_Black.png'
+image MB = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mengayo_angry.png'
+image MB = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mengayo_whin.png'
+image MB = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mengayo_surpried.png'
+image MB = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mengayo_looking.png'
+image MB = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mengayo_happy.png'
 image Kim = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_happy.png'
+image Kim = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_angry.png'
+image Kim = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_Teeth-smile.png'
+image Kim = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_calm.png'
+image Kim = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_cry.png'
+image Kim = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_oh.png'
+
 
 #BACKGROUNDS
 image 0_outside = 'backgrounds/0_outside.jpg'
