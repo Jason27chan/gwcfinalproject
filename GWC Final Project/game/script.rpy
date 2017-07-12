@@ -43,7 +43,7 @@ define narration = nvl_narrator
 #-------------------------------------------------------------------------------
 ##IMAGES
 #CHARACTERS
-
+image MB = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mr_Black.png'
 
 #BACKGROUNDS
 image 0_outside = 'backgrounds/0_outside.jpg'
@@ -54,22 +54,14 @@ image 0_office = 'backgrounds/0_office.jpg'
 
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-
+label prologue:
     scene 0_outside with fade
-
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
-
-    show eileen happy
-
-    # These display lines of dialogue.
+    show MB at left
 
     mb "Do you have the ship ready?"
     emp "Sir, yes sir!"
+    
+    hide MB with moveoutright
     mbc "Are you {i}sure{/i} that you’re going to layout this plan?"
     mb "Are you questioning my decisions? Please tell me that one of my bright children is not telling me if my plan is good or not."
     mbc "No, Father. I’m just saying that this plan is rather… immoral… for the goal that you want to achieve."

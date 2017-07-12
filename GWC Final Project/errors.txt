@@ -2,8 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 43: expected 'image_name_component' not found.
-    image 
-          ^
+File "game/script.rpy", line 46: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a ' at the end of the first line.)
+    image MB = 'C:\Users\Seok Hee Hong\Desktop\Ren'Py Workspace\GWC Final Project\game\images\sprites\Masterminds\Mastermind(s)\Mengyao Shen (Singapore)'
 
 Ren'Py Version: Ren'Py 6.99.12.4.2187
