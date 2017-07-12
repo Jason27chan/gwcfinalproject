@@ -1,23 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While parsing C:\Users\GWC\Desktop\Renpy Workspace\gwcfinalproject\GWC Final Project/game/script.rpy.
-ScriptError: Name (u'C:\\Users\\GWC\\Desktop\\Renpy Workspace\\gwcfinalproject\\GWC Final Project/game/script.rpy', 1499869421, 30) is defined twice, at game/script.rpy:47 and game/script.rpy:50.
+While running game code:
+  File "game/script.rpy", line 123, in script
+    Protag-kun "The only “me” I know is myself, so-"
+NameError: name 'Protag' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "C:\Users\GWC\Downloads\renpy-6.99.12.4-sdk\renpy\bootstrap.py", line 295, in bootstrap
-    renpy.main.main()
-  File "C:\Users\GWC\Downloads\renpy-6.99.12.4-sdk\renpy\main.py", line 364, in main
-    renpy.game.script.load_script()  # sets renpy.game.script.
-  File "C:\Users\GWC\Downloads\renpy-6.99.12.4-sdk\renpy\script.py", line 265, in load_script
-    self.load_appropriate_file(".rpyc", ".rpy", dir, fn, initcode)
-  File "C:\Users\GWC\Downloads\renpy-6.99.12.4-sdk\renpy\script.py", line 753, in load_appropriate_file
-    self.finish_load(stmts, initcode, filename=fn + source)
-  File "C:\Users\GWC\Downloads\renpy-6.99.12.4-sdk\renpy\script.py", line 419, in finish_load
-    bad_node.filename, bad_node.linenumber))
-ScriptError: Name (u'C:\\Users\\GWC\\Desktop\\Renpy Workspace\\gwcfinalproject\\GWC Final Project/game/script.rpy', 1499869421, 30) is defined twice, at game/script.rpy:47 and game/script.rpy:50.
+  File "game/script.rpy", line 123, in script
+    Protag-kun "The only “me” I know is myself, so-"
+  File "C:\Users\Seok Hee Hong\Downloads\SETUP\renpy-6.99.12.4-sdk\renpy\ast.py", line 593, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\Seok Hee Hong\Downloads\SETUP\renpy-6.99.12.4-sdk\renpy\ast.py", line 513, in eval_who
+    return renpy.python.py_eval(who)
+  File "C:\Users\Seok Hee Hong\Downloads\SETUP\renpy-6.99.12.4-sdk\renpy\python.py", line 1749, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\Seok Hee Hong\Downloads\SETUP\renpy-6.99.12.4-sdk\renpy\python.py", line 1743, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<none>", line 1, in <module>
+NameError: name 'Protag' is not defined
 
 Windows-8-6.2.9200
 Ren'Py 6.99.12.4.2187
- 
+GWC Final Project 1.0
