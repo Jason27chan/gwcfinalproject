@@ -44,6 +44,7 @@ define narration = nvl_narrator
 ##IMAGES
 #CHARACTERS
 image MB = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mr_Black.png'
+image Kim = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_happy.png'
 
 #BACKGROUNDS
 image 0_outside = 'backgrounds/0_outside.jpg'
@@ -56,13 +57,12 @@ label start:
 
 label prologue:
     scene 0_outside with fade
-    show MB at left
 
     mb "Do you have the ship ready?"
     emp "Sir, yes sir!"
     
-    hide MB with moveoutright
     mbc "Are you {i}sure{/i} that you’re going to layout this plan?"
+
     mb "Are you questioning my decisions? Please tell me that one of my bright children is not telling me if my plan is good or not."
     mbc "No, Father. I’m just saying that this plan is rather… immoral… for the goal that you want to achieve."
     mbc "I will always respect your authority, but if this ends up in flames,  I would prefer to not go down with you."
