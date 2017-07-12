@@ -1,3 +1,5 @@
+
+#keny says hi and christine says bye 
 ### GWC Final Project by Seok Hee Hong, Brynn Jones, Star Riley, Kenyetta Akowa
 # The script of the game goes in this file.
 #-------------------------------------------------------------------------------
