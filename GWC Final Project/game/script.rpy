@@ -1,6 +1,5 @@
 ### GWC Final Project by Seok Hee Hong, Brynn Jones, Star Riley, Kenyetta Akowa
 # The script of the game goes in this file.
-# Brynn Said
 #-------------------------------------------------------------------------------
 ##CHARACTERS
 #define  = Character(_(''), color="#FFFFFF")
@@ -42,14 +41,25 @@ define narration = nvl_narrator
 #define narration = Character(kind=nvl)
 
 #-------------------------------------------------------------------------------
-##IMAGES
-#CHARACTERS
+###IMAGES
+##CHARACTERS
 image MB = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mr_Black.png'
 image Kim = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_happy.png'
 
 #BACKGROUNDS
 image 0_outside = 'backgrounds/0_outside.jpg'
 image 0_office = 'backgrounds/0_office.jpg'
+image 1_clearbluesky = 'backgrounds/1_clearbluesky.jpg'
+image 1_Dormroom = 'backgrounds/1_Dormroom.jpg'
+image 1_Flower = 'backgrounds/1_Flower.jpg'
+image 1_Warehouse.jpg = 'backgrounds/1_Flower.jpg'
+image Library_Day = 'backgrounds/f_tool.jpg'
+image Flower_Night = 'backgrounds/flower_night.jpg'
+image Forest_Night = 'backgrounds/forest_night.jpg'
+image Library_Night = 'backgrounds/Library_Night.jpg'
+image Dormroom_OpenDrawer = 'backgrounds/room.jpg'
+image Room_Night = 'backgrounds/Room_Night.jpg'
+image SunsetSky = 'backgrounds/Subsetsky.jpg'
 
 #-------------------------------------------------------------------------------
 # The game starts here.
@@ -99,9 +109,18 @@ label prologue:
     mb "After all, how can your sympathetic asset compete against someone who has that and more…?"
     narration "And when he noticed Jefferson’s irises focusing now on him, Mr. Black knew for certain that the crown was now in his hands, and no one can snatch it away from him."
     narration "Not even in death."
+    
+    # This Ends Prologue
+#--------------------------------------------------------------------
+# Beginning of Chapter One
+label chapterOne: 
+    
+    # This Ends Chapter One
+#--------------------------------------------------------------------
+# Beginning of Chapter Two
 
+label chapterTwo: 
     
-    
-    # This ends the game.
+    # This Ends Chapter Two
 
     return
