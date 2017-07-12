@@ -1,0 +1,29 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 40, in script
+    define narration = nvm_narrator
+  File "game/script.rpy", line 40, in <module>
+    define narration = nvm_narrator
+NameError: name 'nvm_narrator' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "C:\Users\Seok Hee Hong\Downloads\SETUP\renpy-6.99.12.4-sdk\renpy\bootstrap.py", line 295, in bootstrap
+    renpy.main.main()
+  File "C:\Users\Seok Hee Hong\Downloads\SETUP\renpy-6.99.12.4-sdk\renpy\main.py", line 419, in main
+    game.context().run(node)
+  File "game/script.rpy", line 40, in script
+    define narration = nvm_narrator
+  File "C:\Users\Seok Hee Hong\Downloads\SETUP\renpy-6.99.12.4-sdk\renpy\ast.py", line 1816, in execute
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "C:\Users\Seok Hee Hong\Downloads\SETUP\renpy-6.99.12.4-sdk\renpy\python.py", line 1743, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 40, in <module>
+    define narration = nvm_narrator
+NameError: name 'nvm_narrator' is not defined
+
+Windows-8-6.2.9200
+Ren'Py 6.99.12.4.2187
+GWC Final Project 1.0
