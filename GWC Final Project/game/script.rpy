@@ -173,6 +173,32 @@ label chapterOne:
     unknown "Alright. Alright I was going to step out in the first place. Don’t get ahead of yourself buddy."
     #Protag-kun sees a girl step out of the bushes with a green bow and some unique clothes that Protag-kun never seen before)(She looks at the ground with her hand next to her mouth contemplating about something)
     "Maybe she’s worried because she doesn’t know where we are either. I should to console her!"
+    menu:
+        "Hey, don’t worry it’s fine. You don’t have to worry abou-":
+            jump choice1_1
+        "(She’s probably just thinking though.) So, what’s your name?":
+            jump choice1_2
+        "Stay silent.": 
+            jump choice1_3
+    label choice1_1:
+        unknown "…shut up! I’m not worrying about anything, and I can help myself."
+        unknown "Don’t act like you’re so strong when you almost pissed your pants when I came from the bushes." 
+        z "(Woah… That was something.) Sorry. Hmm…"
+        jump choice1_done
+    label choice1_2:
+        unknown "Why would I give my name to a stranger that I just met in a FOREST? Who knows, maybe you’re the one who’s trying to abduct me right now!"
+        unknown "Well tough luck buddy. I’m not your average loli! YEEET!"
+        z "(Since you’re in an unknown forest, didn’t you technically already get abducted?)"
+        z "Oh sorry. I never thought about that reasoning. I thought that since we’re in the same situation." 
+        jump choice1_done
+    label choice1_3:
+        z "(Z stays quiet) Kre..."
+        jump choice1_done
+    label choice1_done:
+    unknown "Anyways, since it actually does seem like we’re in the same situation, I’ll tell you my name..I’m Liling… Liling Wong."
+    
+
+        
 
     
     # This ends the game.
