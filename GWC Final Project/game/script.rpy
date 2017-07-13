@@ -37,7 +37,7 @@ define mk = Character(_('Ms. Karen'), color="#FFFFFF")
 define gm = Character(_('Grown Man'), color="#FFFFFF")
 define ym = Character(_('Young Man'), color="#FFFFFF")
 define jj = Character(_('James Jefferson'), color="#FFFFFF")
-
+define jason = Character(_('Jason Chan'), color="#00FF00")
 
 define narration = nvl_narrator
 #define narration = Character(kind=nvl)
