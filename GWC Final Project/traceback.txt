@@ -3,6 +3,7 @@
 While running game code:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   File "game/script.rpy", line 62, in script
     MB "Do you have the ship ready?"
 Exception: Sayer 'MB' is not defined.
@@ -16,10 +17,16 @@ NameError: name 'Protag' is not defined
     Protag-kun "The only “me” I know is myself, so-"
 NameError: name 'Protag' is not defined
 >>>>>>> ffbae62276bcf8f54b2cd6b7ca4955801fe81f76
+=======
+  File "game/script.rpy", line 123, in script
+    Protag-kun "The only “me” I know is myself, so-"
+NameError: name 'Protag' is not defined
+>>>>>>> ffbae62276bcf8f54b2cd6b7ca4955801fe81f76
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   File "game/script.rpy", line 62, in script
@@ -30,6 +37,8 @@ Full traceback:
     raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
 Exception: Sayer 'MB' is not defined.
 =======
+=======
+>>>>>>> ffbae62276bcf8f54b2cd6b7ca4955801fe81f76
 =======
 >>>>>>> ffbae62276bcf8f54b2cd6b7ca4955801fe81f76
   File "game/script.rpy", line 123, in script
@@ -45,7 +54,10 @@ Exception: Sayer 'MB' is not defined.
   File "<none>", line 1, in <module>
 NameError: name 'Protag' is not defined
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b659eb4923d493828258d9bb972717e0faf78e4a
+=======
+>>>>>>> ffbae62276bcf8f54b2cd6b7ca4955801fe81f76
 =======
 >>>>>>> ffbae62276bcf8f54b2cd6b7ca4955801fe81f76
 

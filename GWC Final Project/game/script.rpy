@@ -52,7 +52,10 @@ image MB_1 = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mengayo_whin.png'
 image MB_2 = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mengayo_surpried.png'
 image MB_3 = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mengayo_looking.png'
 image MB_4 = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mengayo_happy.png'
+<<<<<<< HEAD
 #------------------------Kim-ly Mai-----------------------------------
+=======
+>>>>>>> ffbae62276bcf8f54b2cd6b7ca4955801fe81f76
 image Kim = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_happy.png'
 image Kim_0 = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_angry.png'
 image Kim_1 = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_Teeth-smile.png'
@@ -176,6 +179,9 @@ image Yuno_6 = 'sprites/Participants/Participants/Yuno Akizawa (Japan)/Yuno_Sly.
 image Yuno_7 = 'sprites/Participants/Participants/Yuno Akizawa (Japan)/Yuno_SuckHerCockiness.png'
 image Yuno_8 = 'sprites/Participants/Participants/Yuno Akizawa (Japan)/Yuno_Sympathy.png'
 image Yuno_9 = 'sprites/Participants/Participants/Yuno Akizawa (Japan)/Yuno_yIKES.png'
+<<<<<<< HEAD
+>>>>>>> ffbae62276bcf8f54b2cd6b7ca4955801fe81f76
+=======
 >>>>>>> ffbae62276bcf8f54b2cd6b7ca4955801fe81f76
 
 
@@ -242,6 +248,7 @@ label prologue:
     mb "After all, how can your sympathetic asset compete against someone who has that and more…?"
     narration "And when he noticed Jefferson’s irises focusing now on him, Mr. Black knew for certain that the crown was now in his hands, and no one can snatch it away from him."
     narration "Not even in death."
+<<<<<<< HEAD
     
     # This Ends Prologue
 #--------------------------------------------------------------------
@@ -249,6 +256,11 @@ label prologue:
     nvl clear
 
 label chapterOne: 
+=======
+    nvl clear
+   
+label chapterOne:
+>>>>>>> ffbae62276bcf8f54b2cd6b7ca4955801fe81f76
     scene 0_outside with fade
     #Protag-kun opens eyes 
     z "Hmmm….ugh. Where am I?"
@@ -273,6 +285,7 @@ label chapterOne:
     "Maybe she’s worried because she doesn’t know where we are either. I should to console her!"
 
     
+<<<<<<< HEAD
 
     # This Ends Chapter One
 #--------------------------------------------------------------------
@@ -283,5 +296,8 @@ label chapterTwo:
     # This Ends Chapter Two
 
     # This ends the game
+=======
+    # This ends the game.
+>>>>>>> ffbae62276bcf8f54b2cd6b7ca4955801fe81f76
 
     return
