@@ -45,12 +45,14 @@ define narration = nvl_narrator
 #-------------------------------------------------------------------------------
 ###IMAGES
 ##CHARACTERS
+#-------------------Mengyao Shen-------------------------------------
 image MB = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mr_Black.png'
 image MB = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mengayo_angry.png'
 image MB = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mengayo_whin.png'
 image MB = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mengayo_surpried.png'
 image MB = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mengayo_looking.png'
 image MB = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mengayo_happy.png'
+#------------------------Kim-ly Mai----------------------------------------------
 image Kim = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_happy.png'
 image Kim = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_angry.png'
 image Kim = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_Teeth-smile.png'
@@ -61,23 +63,27 @@ image Kim = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_sad.png
 image Kim = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_smile.png'
 image Kim = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_surprised.png'
 image Kim = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_upset.png'
+#-------------------------------Jamie Black--------------------------------------
 image Jaime = 'sprites/Masterminds/Jaime Black (False Mastermind)(American)/Jaime_happy.png'
 image Jaime = 'sprites/Masterminds/Jaime Black (False Mastermind)(American)/Jaime_neutral.png'
 image Jaime = 'sprites/Masterminds/Jaime Black (False Mastermind)(American)/Jaime_mad.png'
 image Jaime = 'sprites/Masterminds/Jaime Black (False Mastermind)(American)/Jaime_sad.png'
 image Jaime = 'sprites/Masterminds/Jaime Black (False Mastermind)(American)/Jaime_scared.png'
+#--------------------------------Dieck Berhtram------------------------------------
 image Dieck = 'sprites/NPC/Non-Playable Characters/Dieck Berhtram (NPC)(Germany)/Dieck_happy.png'
 image Dieck = 'sprites/NPC/Non-Playable Characters/Dieck Berhtram (NPC)(Germany)/Dieck_wink.png'
 image Dieck = 'sprites/NPC/Non-Playable Characters/Dieck Berhtram (NPC)(Germany)/Dieck_surprise.png'
 image Dieck = 'sprites/NPC/Non-Playable Characters/Dieck Berhtram (NPC)(Germany)/Dieck_pokerface.png'
 image Dieck = 'sprites/NPC/Non-Playable Characters/Dieck Berhtram (NPC)(Germany)/Dieck_mad.png'
 image Dieck = 'sprites/NPC/Non-Playable Characters/Dieck Berhtram (NPC)(Germany)/Dieck_dissapointed.png'
+#------------------------------------Georgia Reid-------------------------------------------------
 image Georgia = 'sprites/NPC/Non-Playable Characters/Georgia Reid (New Zealand)/Georgia_happy.png'
 image Georgia = 'sprites/NPC/Non-Playable Characters/Georgia Reid (New Zealand)/Georgia_mad.png'
 image Georgia = 'sprites/NPC/Non-Playable Characters/Georgia Reid (New Zealand)/Georgia_shy.png'
 image Georgia = 'sprites/NPC/Non-Playable Characters/Georgia Reid (New Zealand)/Georgia_surprised.png'
 image Georgia = 'sprites/NPC/Non-Playable Characters/Georgia Reid (New Zealand)/Georgia_surprised2.png'
 image Georgia = 'sprites/NPC/Non-Playable Characters/Georgia Reid (New Zealand)/pokerface.png'
+#-------------------------------------Mahalia Andrada----------------------------------------------
 image Mahalia = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_angry.png'
 image Mahalia = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_angry2.png'
 image Mahalia = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_closeeye.png'
@@ -89,6 +95,7 @@ image Mahalia = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Phil
 image Mahalia = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_smile2.png'
 image Mahalia = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_surprised.png'
 image Mahalia = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_sympathy.png'
+#-----------------------------------------Antonio Amadi-----------------------------------------------
 image Antonio = 'sprites/Participants/Participants/Antonio Amadi (Italy)/Antonio_Annoyed.png'
 image Antonio = 'sprites/Participants/Participants/Antonio Amadi (Italy)/Antonio_Nuetral.png'
 image Antonio = 'sprites/Participants/Participants/Antonio Amadi (Italy)/Antonio_Psyched.png'
