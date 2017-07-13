@@ -47,60 +47,136 @@ define narration = nvl_narrator
 ##CHARACTERS
 #-------------------Mengyao Shen-------------------------------------
 image MB = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mr_Black.png'
-image MB = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mengayo_angry.png'
-image MB = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mengayo_whin.png'
-image MB = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mengayo_surpried.png'
-image MB = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mengayo_looking.png'
-image MB = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mengayo_happy.png'
-#------------------------Kim-ly Mai----------------------------------------------
+image MB_0 = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mengayo_angry.png'
+image MB_1 = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mengayo_whin.png'
+image MB_2 = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mengayo_surpried.png'
+image MB_3 = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mengayo_looking.png'
+image MB_4 = 'sprites/Masterminds/Mengyao Shen (Singapore)/Mengayo_happy.png'
+#------------------------Kim-ly Mai-----------------------------------
 image Kim = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_happy.png'
-image Kim = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_angry.png'
-image Kim = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_Teeth-smile.png'
-image Kim = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_calm.png'
-image Kim = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_cry.png'
-image Kim = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_oh.png'
-image Kim = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_sad.png'
-image Kim = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_smile.png'
-image Kim = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_surprised.png'
-image Kim = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_upset.png'
-#-------------------------------Jamie Black--------------------------------------
+image Kim_0 = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_angry.png'
+image Kim_1 = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_Teeth-smile.png'
+image Kim_2 = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_calm.png'
+image Kim_3 = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_cry.png'
+image Kim_4 = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_oh.png'
+image Kim_5 = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_sad.png'
+image Kim_6 = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_smile.png'
+image Kim_7 = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_surprised.png'
+image Kim_8 = 'sprites/Masterminds/Kim-ly Mai (Mastermind)(Vietnam)/Kim-ly_upset.png'
 image Jaime = 'sprites/Masterminds/Jaime Black (False Mastermind)(American)/Jaime_happy.png'
-image Jaime = 'sprites/Masterminds/Jaime Black (False Mastermind)(American)/Jaime_neutral.png'
-image Jaime = 'sprites/Masterminds/Jaime Black (False Mastermind)(American)/Jaime_mad.png'
-image Jaime = 'sprites/Masterminds/Jaime Black (False Mastermind)(American)/Jaime_sad.png'
-image Jaime = 'sprites/Masterminds/Jaime Black (False Mastermind)(American)/Jaime_scared.png'
-#--------------------------------Dieck Berhtram------------------------------------
+image Jaime_0 = 'sprites/Masterminds/Jaime Black (False Mastermind)(American)/Jaime_neutral.png'
+image Jaime_1 = 'sprites/Masterminds/Jaime Black (False Mastermind)(American)/Jaime_mad.png'
+image Jaime_2 = 'sprites/Masterminds/Jaime Black (False Mastermind)(American)/Jaime_sad.png'
+image Jaime_3 = 'sprites/Masterminds/Jaime Black (False Mastermind)(American)/Jaime_scared.png'
 image Dieck = 'sprites/NPC/Non-Playable Characters/Dieck Berhtram (NPC)(Germany)/Dieck_happy.png'
-image Dieck = 'sprites/NPC/Non-Playable Characters/Dieck Berhtram (NPC)(Germany)/Dieck_wink.png'
+image Dieck_0 = 'sprites/NPC/Non-Playable Characters/Dieck Berhtram (NPC)(Germany)/Dieck_wink.png'
 image Dieck = 'sprites/NPC/Non-Playable Characters/Dieck Berhtram (NPC)(Germany)/Dieck_surprise.png'
-image Dieck = 'sprites/NPC/Non-Playable Characters/Dieck Berhtram (NPC)(Germany)/Dieck_pokerface.png'
-image Dieck = 'sprites/NPC/Non-Playable Characters/Dieck Berhtram (NPC)(Germany)/Dieck_mad.png'
-image Dieck = 'sprites/NPC/Non-Playable Characters/Dieck Berhtram (NPC)(Germany)/Dieck_dissapointed.png'
-#------------------------------------Georgia Reid-------------------------------------------------
+image Dieck-1 = 'sprites/NPC/Non-Playable Characters/Dieck Berhtram (NPC)(Germany)/Dieck_pokerface.png'
+image Dieck_2 = 'sprites/NPC/Non-Playable Characters/Dieck Berhtram (NPC)(Germany)/Dieck_mad.png'
+image Dieck_3 = 'sprites/NPC/Non-Playable Characters/Dieck Berhtram (NPC)(Germany)/Dieck_dissapointed.png'
 image Georgia = 'sprites/NPC/Non-Playable Characters/Georgia Reid (New Zealand)/Georgia_happy.png'
-image Georgia = 'sprites/NPC/Non-Playable Characters/Georgia Reid (New Zealand)/Georgia_mad.png'
-image Georgia = 'sprites/NPC/Non-Playable Characters/Georgia Reid (New Zealand)/Georgia_shy.png'
-image Georgia = 'sprites/NPC/Non-Playable Characters/Georgia Reid (New Zealand)/Georgia_surprised.png'
-image Georgia = 'sprites/NPC/Non-Playable Characters/Georgia Reid (New Zealand)/Georgia_surprised2.png'
-image Georgia = 'sprites/NPC/Non-Playable Characters/Georgia Reid (New Zealand)/pokerface.png'
-#-------------------------------------Mahalia Andrada----------------------------------------------
+image Georgia_0 = 'sprites/NPC/Non-Playable Characters/Georgia Reid (New Zealand)/Georgia_mad.png'
+image Georgia_1 = 'sprites/NPC/Non-Playable Characters/Georgia Reid (New Zealand)/Georgia_shy.png'
+image Georgia_2 = 'sprites/NPC/Non-Playable Characters/Georgia Reid (New Zealand)/Georgia_surprised.png'
+image Georgia_3 = 'sprites/NPC/Non-Playable Characters/Georgia Reid (New Zealand)/Georgia_surprised2.png'
+image Georgia_4 = 'sprites/NPC/Non-Playable Characters/Georgia Reid (New Zealand)/pokerface.png'
 image Mahalia = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_angry.png'
-image Mahalia = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_angry2.png'
-image Mahalia = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_closeeye.png'
-image Mahalia = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_halfclose.png'
-image Mahalia = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_mad.png'
-image Mahalia = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_pokerface.png'
-image Mahalia = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_shout.png'
-image Mahalia = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_smile.png'
-image Mahalia = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_smile2.png'
-image Mahalia = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_surprised.png'
-image Mahalia = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_sympathy.png'
-#-----------------------------------------Antonio Amadi-----------------------------------------------
+image Mahalia_0 = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_angry2.png'
+image Mahalia_1 = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_closeeye.png'
+image Mahalia_2 = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_halfclose.png'
+image Mahalia_3 = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_mad.png'
+image Mahalia_4 = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_pokerface.png'
+image Mahalia_5 = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_shout.png'
+image Mahalia_6 = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_smile.png'
+image Mahalia_7 = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_smile2.png'
+image Mahalia_8 = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_surprised.png'
+image Mahalia_9 = 'sprites/NPC/Non-Playable Characters/Mahalia Andrada (NPC)/(Philippines) Mahalia_sympathy.png'
 image Antonio = 'sprites/Participants/Participants/Antonio Amadi (Italy)/Antonio_Annoyed.png'
-image Antonio = 'sprites/Participants/Participants/Antonio Amadi (Italy)/Antonio_Nuetral.png'
-image Antonio = 'sprites/Participants/Participants/Antonio Amadi (Italy)/Antonio_Psyched.png'
-image Antonio = 'sprites/Participants/Participants/Antonio Amadi (Italy)/Antonio_Shooketh.png'
-image Antonio = 'sprites/Participants/Participants/Antonio Amadi (Italy)/Antonio_Worried.png'
+image Antonio_0 = 'sprites/Participants/Participants/Antonio Amadi (Italy)/Antonio_Nuetral.png'
+image Antonio_1 = 'sprites/Participants/Participants/Antonio Amadi (Italy)/Antonio_Psyched.png'
+image Antonio_2 = 'sprites/Participants/Participants/Antonio Amadi (Italy)/Antonio_Shooketh.png'
+image Antonio_3 = 'sprites/Participants/Participants/Antonio Amadi (Italy)/Antonio_Worried.png'
+image Isidor = 'sprites/Participants/Participants/Isidor Mikhailov (Russia)/Isidor_Happy.png'
+image Isidor_0 = 'sprites/Participants/Participants/Isidor Mikhailov (Russia)/Isidor_Kre.png'
+image Isidor_1 = 'sprites/Participants/Participants/Isidor Mikhailov (Russia)/Isidor_Mad.png'
+image Isidor_2 = 'sprites/Participants/Participants/Isidor Mikhailov (Russia)/Isidor_Neutral.png'
+image Isidor_3 = 'sprites/Participants/Participants/Isidor Mikhailov (Russia)/Isidor_Regretful.png'
+image Isidor_4 = 'sprites/Participants/Participants/Isidor Mikhailov (Russia)/Isidor_Shooketh.png'
+image James = 'sprites/Participants/Participants/James Williams (England)/James_Neutral.png'
+image James_0 = 'sprites/Participants/Participants/James Williams (England)/James_Regular.png'
+image James_1 = 'sprites/Participants/Participants/James Williams (England)/James_Shooketh.png'
+image James_2 = 'sprites/Participants/Participants/James Williams (England)/James_Smile.png'
+image James_3 = 'sprites/Participants/Participants/James Williams (England)/James_Worried.png'
+image Ji = 'sprites/Participants/Participants/Ji su (Korean)/Jisoo_.png'
+image Ji_0 = 'sprites/Participants/Participants/Ji su (Korean)/Jisoo_Angry.png'
+image Ji_1 = 'sprites/Participants/Participants/Ji su (Korean)/Jisoo_Concerned.png'
+image Ji_2 = 'sprites/Participants/Participants/Ji su (Korean)/Jisoo_Frustrated.png'
+image Ji_3 = 'sprites/Participants/Participants/Ji su (Korean)/Jisoo_Happy.png'
+image Ji_4 = 'sprites/Participants/Participants/Ji su (Korean)/Jisoo_Neutral.png'
+image Ji_5 = 'sprites/Participants/Participants/Ji su (Korean)/Jisoo_Reprimand.png'
+image Ji_6 = 'sprites/Participants/Participants/Ji su (Korean)/Jisoo_Smile.png'
+image Ji_7 = 'sprites/Participants/Participants/Ji su (Korean)/Jisoo_Surprised.png'
+image Ji_8 = 'sprites/Participants/Participants/Ji su (Korean)/Jisoo_Sympathetic.png'
+image Jin = 'sprites/Participants/Participants/Jin soo (North Korea)/Jinsoo_Angry.png'
+image Jin_0 = 'sprites/Participants/Participants/Jin soo (North Korea)/Jinsoo_AngryTalk.png'
+image Jin_1 = 'sprites/Participants/Participants/Jin soo (North Korea)/Jinsoo_Embarrassed.png'
+image Jin_2 = 'sprites/Participants/Participants/Jin soo (North Korea)/Jinsoo_Happy.png'
+image Jin_3 = 'sprites/Participants/Participants/Jin soo (North Korea)/Jinsoo_HappyTalk.png'
+image Jin_4 = 'sprites/Participants/Participants/Jin soo (North Korea)/Jinsoo_HellaSad.png'
+image Jin_5 = 'sprites/Participants/Participants/Jin soo (North Korea)/Jinsoo_Neutral.png'
+image Jin_6 = 'sprites/Participants/Participants/Jin soo (North Korea)/Jinsoo_Precious.png'
+image Jin_7 = 'sprites/Participants/Participants/Jin soo (North Korea)/Jinsoo_Sad.png'
+image Jin_8 = 'sprites/Participants/Participants/Jin soo (North Korea)/Jinsoo_Smile.png'
+image Liling = 'sprites/Participants/Participants/Liling Wong (China)/Liling_Blush.png'
+image Liling_0 = 'sprites/Participants/Participants/Liling Wong (China)/Liling_Concerned.png'
+image Liling_1 = 'sprites/Participants/Participants/Liling Wong (China)/Liling_Embarrassed.png'
+image Liling_2 = 'sprites/Participants/Participants/Liling Wong (China)/Liling_Neutral.png'
+image Liling_3 = 'sprites/Participants/Participants/Liling Wong (China)/Liling_Reg.png'
+image Liling_4 = 'sprites/Participants/Participants/Liling Wong (China)/Liling_RegTalk.png'
+image Liling_5 = 'sprites/Participants/Participants/Liling Wong (China)/Liling_Shooketh.png'
+image Liling_6 = 'sprites/Participants/Participants/Liling Wong (China)/Liling_Shy.png'
+image Liling_7 = 'sprites/Participants/Participants/Liling Wong (China)/Liling_Smile.png'
+image Lola = 'sprites/Participants/Participants/Lola Wright (Canada)/Lola_Concerned.png'
+image Lola_0 = 'sprites/Participants/Participants/Lola Wright (Canada)/Lola_Frustrated.png'
+image Lola_1 = 'sprites/Participants/Participants/Lola Wright (Canada)/Lola_Happy.png'
+image Lola_2 = 'sprites/Participants/Participants/Lola Wright (Canada)/Lola_Neutral.png'
+image Lola_3 = 'sprites/Participants/Participants/Lola Wright (Canada)/Lola_Perv.png'
+image Lola_4 = 'sprites/Participants/Participants/Lola Wright (Canada)/Lola_Shooketh.png'
+image Lucas = 'sprites/Participants/Participants/Lucas Henry (France)/Lucas_Bored.png'
+image Lucas_0 = 'sprites/Participants/Participants/Lucas Henry (France)/Lucas_Chill.png'
+image Lucas_1 = 'sprites/Participants/Participants/Lucas Henry (France)/Lucas_Exhausted.png'
+image Lucas_2 = 'sprites/Participants/Participants/Lucas Henry (France)/Lucas_Frustrated.png'
+image Lucas_3 = 'sprites/Participants/Participants/Lucas Henry (France)/Lucas_Happy.png'
+image Lucas_4 = 'sprites/Participants/Participants/Lucas Henry (France)/Lucas_Neutral.png'
+image Lucas_5 = 'sprites/Participants/Participants/Lucas Henry (France)/Lucas_Sad.png' 
+image Lucas_6 = 'sprites/Participants/Participants/Lucas Henry (France)/Lucas_Surprised.png'
+image Natalia = 'sprites/Participants/Participants/Natalia Perez (Brazil)/Natalia_Crying.png'
+image Natalia_0 = 'sprites/Participants/Participants/Natalia Perez (Brazil)/Natalia_Embarrassed.png'
+image Natalia_1 = 'sprites/Participants/Participants/Natalia Perez (Brazil)/Natalia_Frustrated.png'
+image Natalia_2 = 'sprites/Participants/Participants/Natalia Perez (Brazil)/Natalia_Happy.png'
+image Natalia_3 = 'sprites/Participants/Participants/Natalia Perez (Brazil)/Natalia_Neutral.png'
+image Natalia_4 = 'sprites/Participants/Participants/Natalia Perez (Brazil)/Natalia_sad.png'
+image Natalia_5 = 'sprites/Participants/Participants/Natalia Perez (Brazil)/Natalia_Scared.png'
+image Natalia_6 = 'sprites/Participants/Participants/Natalia Perez (Brazil)/Natalia_Shooketh.png'
+image Natalia_7 = 'sprites/Participants/Participants/Natalia Perez (Brazil)/Natalia_Smile.png'
+image Ximena = 'sprites/Participants/Participants/Ximena Hernandez (Spain)/Ximena_Concerned.png'
+image Ximena_0 = 'sprites/Participants/Participants/Ximena Hernandez (Spain)/Ximena_Deadass.png'
+image Ximena_1 = 'sprites/Participants/Participants/Ximena Hernandez (Spain)/Ximena_Happy.png' 
+image Ximena_2 = 'sprites/Participants/Participants/Ximena Hernandez (Spain)/Ximena_Neutral.png'
+image Ximena_3 = 'sprites/Participants/Participants/Ximena Hernandez (Spain)/Ximena_Poker.png'
+image Ximena_4 = 'sprites/Participants/Participants/Ximena Hernandez (Spain)/Ximena_Shooketh.png'
+image Yuno = 'sprites/Participants/Participants/Yuno Akizawa (Japan)/Yuno_Cocky.png'
+image Yuno_0 = 'sprites/Participants/Participants/Yuno Akizawa (Japan)/Yuno_Enraged.png'
+image Yuno_1 = 'sprites/Participants/Participants/Yuno Akizawa (Japan)/Yuno_Exhausted.png'
+image Yuno_2 = 'sprites/Participants/Participants/Yuno Akizawa (Japan)/Yuno_Neutral.png'
+image Yuno_3 = 'sprites/Participants/Participants/Yuno Akizawa (Japan)/Yuno_Reprimand.png'
+image Yuno_4 = 'sprites/Participants/Participants/Yuno Akizawa (Japan)/Yuno_Sad.png'
+image Yuno_5 = 'sprites/Participants/Participants/Yuno Akizawa (Japan)/Yuno_Shooketh.png'
+image Yuno_6 = 'sprites/Participants/Participants/Yuno Akizawa (Japan)/Yuno_Sly.png'
+image Yuno_7 = 'sprites/Participants/Participants/Yuno Akizawa (Japan)/Yuno_SuckHerCockiness.png'
+image Yuno_8 = 'sprites/Participants/Participants/Yuno Akizawa (Japan)/Yuno_Sympathy.png'
+image Yuno_9 = 'sprites/Participants/Participants/Yuno Akizawa (Japan)/Yuno_yIKES.png'
+>>>>>>> ffbae62276bcf8f54b2cd6b7ca4955801fe81f76
 
 
 #BACKGROUNDS
@@ -166,11 +242,11 @@ label prologue:
     mb "After all, how can your sympathetic asset compete against someone who has that and more…?"
     narration "And when he noticed Jefferson’s irises focusing now on him, Mr. Black knew for certain that the crown was now in his hands, and no one can snatch it away from him."
     narration "Not even in death."
-<<<<<<< HEAD
     
     # This Ends Prologue
 #--------------------------------------------------------------------
 # Beginning of Chapter One
+    nvl clear
 
 label chapterOne: 
     scene 0_outside with fade
@@ -197,7 +273,7 @@ label chapterOne:
     "Maybe she’s worried because she doesn’t know where we are either. I should to console her!"
 
     
-    
+
     # This Ends Chapter One
 #--------------------------------------------------------------------
 # Beginning of Chapter Two
@@ -206,5 +282,6 @@ label chapterTwo:
     
     # This Ends Chapter Two
 
+    # This ends the game
 
     return

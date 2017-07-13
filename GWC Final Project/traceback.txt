@@ -2,6 +2,7 @@
 
 While running game code:
 <<<<<<< HEAD
+<<<<<<< HEAD
   File "game/script.rpy", line 62, in script
     MB "Do you have the ship ready?"
 Exception: Sayer 'MB' is not defined.
@@ -10,10 +11,16 @@ Exception: Sayer 'MB' is not defined.
     Protag-kun "The only “me” I know is myself, so-"
 NameError: name 'Protag' is not defined
 >>>>>>> b659eb4923d493828258d9bb972717e0faf78e4a
+=======
+  File "game/script.rpy", line 123, in script
+    Protag-kun "The only “me” I know is myself, so-"
+NameError: name 'Protag' is not defined
+>>>>>>> ffbae62276bcf8f54b2cd6b7ca4955801fe81f76
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
+<<<<<<< HEAD
 <<<<<<< HEAD
   File "game/script.rpy", line 62, in script
     MB "Do you have the ship ready?"
@@ -23,6 +30,8 @@ Full traceback:
     raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
 Exception: Sayer 'MB' is not defined.
 =======
+=======
+>>>>>>> ffbae62276bcf8f54b2cd6b7ca4955801fe81f76
   File "game/script.rpy", line 123, in script
     Protag-kun "The only “me” I know is myself, so-"
   File "C:\Users\Seok Hee Hong\Downloads\SETUP\renpy-6.99.12.4-sdk\renpy\ast.py", line 593, in execute
@@ -35,7 +44,10 @@ Exception: Sayer 'MB' is not defined.
     return eval(bytecode, globals, locals)
   File "<none>", line 1, in <module>
 NameError: name 'Protag' is not defined
+<<<<<<< HEAD
 >>>>>>> b659eb4923d493828258d9bb972717e0faf78e4a
+=======
+>>>>>>> ffbae62276bcf8f54b2cd6b7ca4955801fe81f76
 
 Windows-8-6.2.9200
 Ren'Py 6.99.12.4.2187
